@@ -1,0 +1,21 @@
+# Heavy artifacts (back up to laptop separately)
+checkpoints/
+checkpoints_v2/
+
+# Large dataset zip (>100MB, GitHub limit)
+data/crafter_human_dataset.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Unzipped human dataset (re-extractable from zip)
+data/crafter_human_dataset/
